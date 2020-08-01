@@ -5,6 +5,7 @@ import { Component4Component } from './component4/component4.component';
 
 @NgModule({
   declarations: [Component3Component, Component4Component],
+  exports: [Component3Component, Component4Component],
   imports: [
     CommonModule
   ]
